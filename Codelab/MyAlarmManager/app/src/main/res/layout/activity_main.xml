@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/one_time_alarm"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_once_date"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_date_range_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title1" />
+
+    <TextView
+        android:id="@+id/tv_once_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/alarm_date"
+        app:layout_constraintBottom_toBottomOf="@id/btn_once_date"
+        app:layout_constraintLeft_toRightOf="@id/btn_once_date"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_once_date" />
+
+    <ImageButton
+        android:id="@+id/btn_once_time"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_access_time_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_once_date" />
+
+    <TextView
+        android:id="@+id/tv_once_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/alarm_time"
+        app:layout_constraintBottom_toBottomOf="@id/btn_once_time"
+        app:layout_constraintLeft_toRightOf="@id/btn_once_time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_once_time" />
+
+    <EditText
+        android:id="@+id/edt_once_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_message"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_once_time" />
+
+    <Button
+        android:id="@+id/btn_set_once_alarm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/set_one_time_alarm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_once_message" />
+
+
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/repeating_alarm"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_set_once_alarm" />
+
+
+    <ImageButton
+        android:id="@+id/btn_repeating_time"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_access_time_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2" />
+
+    <TextView
+        android:id="@+id/tv_repeating_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/alarm_time"
+        app:layout_constraintBottom_toBottomOf="@id/btn_repeating_time"
+        app:layout_constraintLeft_toRightOf="@id/btn_repeating_time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_repeating_time" />
+
+    <EditText
+        android:id="@+id/edt_repeating_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/alarm_message"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_repeating_time" />
+
+    <Button
+        android:id="@+id/btn_set_repeating_alarm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/set_repeating_alarm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_repeating_message" />
+    <Button
+        android:id="@+id/btn_cancel_repeating_alarm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cancel Repeating Alarm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_set_repeating_alarm" />
+</androidx.constraintlayout.widget.ConstraintLayout>
