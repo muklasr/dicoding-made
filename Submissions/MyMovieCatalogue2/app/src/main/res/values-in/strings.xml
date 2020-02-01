@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">My Movie Catalogue</string>
+    <string name="release">Rilis</string>
+    <string name="genre">Jenis</string>
+    <string name="settings">Pengaturan</string>
+    <string name="movie">Film</string>
+    <string name="tv_show">Acara Tv</string>
+    <string name="type">Tipe</string>
+    <string name="language">Bahasa</string>
+    <string name="runtime">Runtime</string>
+
+    <string-array name="data_movie_title">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Mary Poppins Returns</item>
+        <item>Mortal Engines</item>
+        <item>Preman Pensiun</item>
+        <item>Robin Hood</item>
+        <item>Spiderman: Into the Spider-Verse</item>
+        <item>The Girl in the Spider\u0027s Web</item>
+        <item>The Mule</item>
+        <item>Venom</item>
+    </string-array>
+    <string-array name="data_movie_description">
+        <item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Ally hilang, sisi pribadi dari hubungan mereka hancur, ketika Jack bertempur dalam pertempuran yang sedang berlangsung dengan setan internalnya sendiri.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, saudara setengah manusia, setengah saudara lelaki Atlantis dan pewaris sejati takhta.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan yang tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Lima tahun setelah kehadiran tak terlihat yang tak menyenangkan membuat sebagian besar masyarakat bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris bass John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Merkurius yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan keluarganya di masa lalu, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Fred Savage yang diculik dipaksa untuk menanggung Deadpool 2 membawakan Deadpool 2 sebagai Deadpool 2 sebagai kisah Putri Pengantin perempuan yang penuh dengan keajaiban, keajaiban &amp; nol F \u0027s.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless \u0027sdari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Lalu suatu hari, Goku dan Vegeta dihadapkan oleh seorang Saiyan bernama \u0027Broly \u0027 yang belum pernah mereka lihat sebelumnya. Orang-orang Saiyan seharusnya hampir sepenuhnya musnah dalam kehancuran Planet Vegeta, jadi apa yang dilakukan orang ini di Bumi? Pertemuan antara tiga Saiyan yang telah mengikuti takdir yang sangat berbeda ini berubah menjadi pertempuran yang luar biasa, dengan bahkan Frieza (kembali dari Neraka) terperangkap dalam campuran.</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+        <item>Kapten Glass dari USS Arkansas menemukan bahwa kudeta terjadi di Rusia, jadi dia dan krunya bergabung dengan kelompok elit yang bekerja di tanah untuk mencegah perang.</item>
+        <item>Dalam London era Depresi, Jane dan Michael Banks yang sudah dewasa, bersama tiga anak Michael, dikunjungi oleh Mary Poppins yang penuh teka-teki setelah kehilangan pribadi. Melalui keterampilan magisnya yang unik, dan dengan bantuan temannya Jack, dia membantu keluarga menemukan kembali sukacita dan keajaiban yang hilang dalam hidup mereka.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+        <item>Setelah tiga tahun, bisnis Muslihat (Epi Kusnandar), yang telah pensiun sebagai preman, memiliki masalah. Penurunan penjualan. Muslihat juga menghadapi masalah baru ketika Safira (Safira Maharani), satu-satunya anak perempuannya, tumbuh di masa remaja dan mulai dikunjungi oleh anak laki-laki. Masalah yang lebih besar: gesekan antara mantan bawahannya.</item>
+        <item>Seorang Tentara Salib yang diperkeras perang dan komandan Moornya melancarkan pemberontakan yang berani melawan mahkota Inggris yang korup.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+        <item>Di Stockholm, Swedia, peretas Lisbeth Salander disewa oleh Frans Balder, seorang insinyur komputer, untuk mengambil program yang menurutnya terlalu berbahaya untuk ada.</item>
+        <item>Earl Stone, seorang pria berusia delapan puluhan, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA yang sibuk mengisi daya.</item>
+        <item>Jurnalis investigasi Eddie Brock mencoba untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+    </string-array>
+    <string-array name="data_movie_release">
+        <item>19 Februari 2019</item>
+        <item>26 Maret 2019</item>
+        <item>23 April 2018</item>
+        <item>21 Desember 2018</item>
+        <item>12 Februari 2019</item>
+        <item>2 April 2019</item>
+        <item>17 Mei 2019</item>
+        <item>15 Januari 2019</item>
+        <item>21 Mei 2019</item>
+        <item>16 Januari 2019</item>
+        <item>16 April 2019</item>
+        <item>26 Oktober 2018</item>
+        <item>19 Maret 2019</item>
+        <item>12 Maret 2019</item>
+        <item>17 Januari 2019</item>
+        <item>5 Februari 2019</item>
+        <item>19 Maret 2019</item>
+        <item>9 November 2018</item>
+        <item>2 April 2019</item>
+        <item>18 Desember 2018</item>
+    </string-array>
+    <string-array name="data_movie_genre">
+        <item>Drama, Romantis, Musik</item>
+        <item>Aksi, Petualangan, Fantasi</item>
+        <item>Petualangan, Aksi, Fiksi</item>
+        <item>Mengerikan, Drama</item>
+        <item>Drama, Musik</item>
+        <item>Aksi, Petualangan, Fiksi</item>
+        <item>Drama</item>
+        <item>Komedi, Aksi</item>
+        <item>Animasi, Keluarga, Petualangan</item>
+        <item>Aksi, Animasi, Fantasi, Petualangan, Komedi, Fiksi</item>
+        <item>Mengerikan, Drama, Fiksi</item>
+        <item>Aksi, Mengerikan</item>
+        <item>Fantasi, Keluarga, Komedi</item>
+        <item>Petualangan, Fantasi</item>
+        <item>Komedi, Drama</item>
+        <item>Petualangan, Aksi, Mengerikan</item>
+        <item>Aksi, Petualangan, Animasi, Fiksi, Komedi</item>
+        <item>Aksi, Kejahatan, Mengerikan</item>
+        <item>Kejahatan, Drama, Mengerikan</item>
+        <item>Fiksi, Aksi</item>
+    </string-array>
+    <string-array name="data_movie_image">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </string-array>
+
+    <string-array name="data_tv_title">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>Family Guy</item>
+        <item>The Flash</item>
+        <item>Gotham</item>
+        <item>Grey\u0027s Anatomy</item>
+        <item>Iron Fist</item>
+        <item>Naruto Shippuden</item>
+        <item>NCIS</item>
+        <item>RiverDale</item>
+        <item>Shameless</item>
+        <item>Supergirl</item>
+        <item>Supernatural</item>
+        <item>The Simpsons</item>
+        <item>The Umbrella Academy</item>
+    </string-array>
+
+    <string-array name="data_tv_description">
+        <item> Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas saat kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur. </item>
+        <item> Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena paling aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan. </item>
+        <item> Dahulu di gunung, seorang master pertempuran yang dikenal sebagai Gohan menemukan seorang anak aneh yang ia beri nama Goku. Gohan membesarkannya dan melatih Goku dalam seni bela diri sampai dia mati. Bocah muda dan sangat kuat itu sendirian, tetapi mudah dikelola. Kemudian suatu hari, Goku bertemu dengan seorang gadis remaja bernama Bulma, yang pencariannya untuk Bola Naga mistis membawanya ke rumah Goku. Bersama-sama, mereka berangkat untuk menemukan ketujuh dan mengabulkan keinginannya. </item>
+        <item> Lucy adalah gadis berusia 17 tahun, yang ingin menjadi penyihir penuh. Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi. Tapi Natsu bukan anak biasa, dia anggota dari salah satu guild mage yang paling terkenal: Fairy Tail. </item>
+        <item> Seri animasi manis, Freakin yang sakit, terpelintir, tidak benar, menampilkan petualangan keluarga Griffin yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang brilian tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan merupakan gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak sangat cerdas tetapi memiliki hasrat yang tinggi untuk film). Anggota terakhir keluarga itu adalah Brian - anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie, sambil menghirup Martinis dan memilah-milah masalah hidupnya sendiri. </item>
+        <item> Setelah akselerator partikel menyebabkan badai hebat, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator - dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat, tetapi tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen ... The Flash. </item>
+        <item> Sebelum ada Batman, ada GOTHAM. \n\nSetiap orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan, seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui dari kisah Gordon dan kebangkitannya dari detektif pemula menjadi Komisaris Polisi? Apa yang diperlukan untuk menavigasi berbagai lapisan korupsi yang diam-diam memerintah Kota Gotham, tempat bertelurnya penjahat paling ikonik di dunia? Dan keadaan apa yang menciptakan mereka - persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin, The Riddler, Two-Face dan The Joker? </item>
+        <item> Mengikuti kehidupan pribadi dan profesional sekelompok dokter di Rumah Sakit Gray Sloan Memorial di Seattle. </item>
+        <item> Danny Rand muncul kembali 15 tahun setelah dianggap mati. Sekarang, dengan kekuatan Iron Fist, ia berusaha untuk merebut kembali masa lalunya dan memenuhi takdirnya. </item>
+        <item> Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto. Ceritanya berkisar pada Naruto Uzumaki yang lebih tua dan sedikit lebih matang dan upayanya untuk menyelamatkan temannya Uchiha Sasuke dari cengkeraman Shinobi seperti ular, Orochimaru. Setelah 2 setengah tahun, Naruto akhirnya kembali ke desanya Konoha, dan mulai mewujudkan ambisinya, meskipun itu tidak akan mudah, karena Ia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi. ; Akatsuki. </item>
+        <item> Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit bukti yang terhubung dengan personel Korps Angkatan Laut dan Korps Marinir, terlepas dari pangkat atau jabatannya. </item>
+        <item> Berada di masa kini, seri ini menawarkan pandangan subversif yang berani tentang Archie, Betty, Veronica dan teman-teman mereka, menjelajahi kejernihan kehidupan kota kecil, kegelapan dan keanehan yang menggelegak di bawah fasad sehat Riverdale. </item>
+        <item> Chicagoan Frank Gallagher adalah ayah tunggal yang bangga dari enam anak yang cerdas, rajin, mandiri, yang tanpa dia akan ... mungkin lebih baik. Ketika Frank tidak di bar menghabiskan sedikit uang yang mereka miliki, dia pingsan di lantai. Tetapi anak-anak telah menemukan cara untuk tumbuh meskipun dia. Mereka mungkin tidak seperti keluarga yang Anda kenal, tetapi mereka tidak meminta maaf karena menjadi siapa mereka sebenarnya. </item>
+        <item> Kara Zor-El yang berusia 24 tahun, yang ditangkap oleh keluarga Danvers ketika dia berusia 13 tahun setelah diusir dari Krypton, harus belajar merangkul kekuatannya setelah sebelumnya menyembunyikannya. Orang-orang Danvers mengajarinya untuk berhati-hati dengan kekuatannya, sampai dia harus mengungkapkannya selama bencana yang tak terduga, menempatkannya dalam perjalanan kepahlawanannya. </item>
+        <item> Ketika mereka masih kecil, Sam dan Dean Winchester kehilangan ibu mereka karena kekuatan gaib yang misterius dan iblis. Selanjutnya, ayah mereka membesarkan mereka menjadi tentara. Dia mengajari mereka tentang kejahatan paranormal yang hidup di sudut-sudut gelap dan di jalan belakang Amerika ... dan dia mengajari mereka cara membunuhnya. Sekarang, saudara-saudara Winchester menjelajahi negara itu dengan Chevy Impala mereka, melawan setiap jenis ancaman gaib yang mereka temui di sepanjang jalan. </item>
+        <item> Bertempat di Springfield, kota rata-rata di Amerika, pertunjukan ini berfokus pada kejenakaan dan petualangan sehari-hari keluarga Simpson; Homer, Marge, Bart, Lisa dan Maggie, serta ribuan pemain virtual. Sejak awal, serial ini telah menjadi ikon budaya pop, menarik ratusan selebriti menjadi bintang tamu. Acara ini juga menjadi terkenal karena satirnya yang tak kenal takut terhadap kehidupan politik, media, dan Amerika secara umum. </item>
+        <item> Keluarga superhero yang disfungsional berkumpul untuk memecahkan misteri kematian ayah mereka, ancaman kiamat dan banyak lagi. </item>
+    </string-array>
+
+    <string-array name="data_tv_type">
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+        <item>Ditulis</item>
+    </string-array>
+
+    <string-array name="data_tv_language">
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Jepang</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+        <item>Inggris</item>
+    </string-array>
+
+    <string-array name="data_tv_time">
+        <item>60m</item>
+        <item>60m</item>
+        <item>25m</item>
+        <item>25m</item>
+        <item>22m</item>
+        <item>44m</item>
+        <item>43m, 60m</item>
+        <item>43m</item>
+        <item>55m</item>
+        <item>25m</item>
+        <item>45m</item>
+        <item>45m</item>
+        <item>60m, 55m</item>
+        <item>42m</item>
+        <item>45m</item>
+        <item>22m</item>
+        <item>60m</item>
+    </string-array>
+
+    <string-array name="data_tv_genre">
+        <item> Kejahatan, Drama, Misteri, Aksi, Petualangan </item>
+        <item> Fiksi, Fantasi, Aksi, Petualangan </item>
+        <item> Komedi, Fiksi, Fantasi, Animasi, Aksi, Petualangan </item>
+        <item> Aksi, Petualangan, Animasi, Komedi, Fiksi, Fantasi </item>
+        <item> Animasi, Komedi </item>
+        <item> Drama, Fiksi, Fantasi </item>
+        <item> Drama, Fantasi, Kejahatan </item>
+        <item> Drama </item>
+        <item> Aksi, Petualangan, Drama, Fiksi, Fantasi </item>
+        <item> Animasi, Komedi, Drama </item>
+        <item> Aksi, Petualangan, Kejahatan, Drama </item>
+        <item> Drama, Misteri </item>
+        <item> Drama, Komedi </item>
+        <item> Aksi, Petualangan, Drama, Fiksi </item>
+        <item> Drama, Misteri, Fiksi, Fantasi </item>
+        <item> Animasi, Komedi </item>
+        <item> Aksi, Petualangan, Fiksi, Fantasi </item>
+    </string-array>
+
+    <string-array name="data_tv_image">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_supernatural</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_the_umbrella</item>
+    </string-array>
+</resources>

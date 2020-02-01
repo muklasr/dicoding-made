@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Favorite Movie</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="tidak_ada_data">- There is no data -</string>
+    <string name="success_delete">Successfully delete from favorite</string>
+    <string name="fail_delete">Failed to delete from favorite</string>
+    <string name="success_add">Successfully add to favorite</string>
+    <string name="fail_add">Failed to add to favorite</string>
+</resources>

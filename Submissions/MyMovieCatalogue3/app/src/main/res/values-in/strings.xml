@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Movie Catalogue</string>
+    <string name="release">Rilis</string>
+    <string name="genre">Jenis</string>
+    <string name="settings">Pengaturan</string>
+    <string name="movie">Film</string>
+    <string name="tv_show">Acara Tv</string>
+    <string name="type">Tipe</string>
+    <string name="language">Bahasa</string>
+    <string name="runtime">Runtime</string>
+</resources>
