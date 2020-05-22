@@ -113,60 +113,58 @@ class MainActivity : AppCompatActivity() {
         tvShowHelper.close()
     }
 
-    private fun loadData(query: String?) {
-        if (position == 0) {
-            val adapter = MovieAdapter()
-            rvSearch.layoutManager = LinearLayoutManager(this)
-            adapter.setOnItemClickCallback(object : MovieAdapter.OnItemClickCallback {
-                override fun onItemClicked(data: Movie) {
-                    val i = Intent(applicationContext, DetailActivity::class.java)
-                    i.putExtra(MovieFragment.EXTRA_MOVIE, data)
-                    startActivity(i)
-                }
-            })
-            rvSearch.adapter = adapter
-            adapter.notifyDataSetChanged()
+    private fun loadData(query: String?) = if (position == 0) {
+        val adapter = MovieAdapter()
+        rvSearch.layoutManager = LinearLayoutManager(this)
+        adapter.setOnItemClickCallback(object : MovieAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Movie) {
+                val i = Intent(applicationContext, DetailActivity::class.java)
+                i.putExtra(MovieFragment.EXTRA_MOVIE, data)
+                startActivity(i)
+            }
+        })
+        rvSearch.adapter = adapter
+        adapter.notifyDataSetChanged()
 
-            val viewModel = ViewModelProvider(
-                this,
-                ViewModelProvider.NewInstanceFactory()
-            ).get(MovieViewModel::class.java)
-            viewModel.setMovie(query)
-            showLoading(true)
+        val viewModel = ViewModelProvider(
+            this,
+            ViewModelProvider.NewInstanceFactory()
+        ).get(MovieViewModel::class.java)
+        viewModel.setMovie(query)
+        showLoading(true)
 
-            viewModel.getMovie().observe(this, Observer { data ->
-                if (data != null) {
-                    adapter.setData(data)
-                    showLoading(false)
-                }
-            })
-        } else {
-            val adapter = TvShowAdapter()
-            rvSearch.layoutManager = LinearLayoutManager(this)
-            adapter.setOnItemClickCallback(object : TvShowAdapter.OnItemClickCallback {
-                override fun onItemClicked(data: TvShow) {
-                    val i = Intent(applicationContext, TvDetailActivity::class.java)
-                    i.putExtra(TvShowFragment.EXTRA_TV, data)
-                    startActivity(i)
-                }
-            })
-            rvSearch.adapter = adapter
-            adapter.notifyDataSetChanged()
+        viewModel.getMovie().observe(this, Observer { data ->
+            if (data != null) {
+                adapter.setData(data)
+                showLoading(false)
+            }
+        })
+    } else {
+        val adapter = TvShowAdapter()
+        rvSearch.layoutManager = LinearLayoutManager(this)
+        adapter.setOnItemClickCallback(object : TvShowAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: TvShow) {
+                val i = Intent(applicationContext, TvDetailActivity::class.java)
+                i.putExtra(TvShowFragment.EXTRA_TV, data)
+                startActivity(i)
+            }
+        })
+        rvSearch.adapter = adapter
+        adapter.notifyDataSetChanged()
 
-            val viewModel = ViewModelProvider(
-                this,
-                ViewModelProvider.NewInstanceFactory()
-            ).get(TvShowViewModel::class.java)
-            viewModel.setTvShow(query)
-            showLoading(true)
+        val viewModel = ViewModelProvider(
+            this,
+            ViewModelProvider.NewInstanceFactory()
+        ).get(TvShowViewModel::class.java)
+        viewModel.setTvShow(query)
+        showLoading(true)
 
-            viewModel.getTvShow().observe(this, Observer { data ->
-                if (data != null) {
-                    adapter.setData(data)
-                    showLoading(false)
-                }
-            })
-        }
+        viewModel.getTvShow().observe(this, Observer { data ->
+            if (data != null) {
+                adapter.setData(data)
+                showLoading(false)
+            }
+        })
     }
 
     private fun showLoading(state: Boolean) {
